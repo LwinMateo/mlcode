@@ -1,56 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T14:25:11.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="6NIsTs-BZUHoErpmr8Hx" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-17T14:35:25.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="GfUbA5XNglxj3Sl_vrGW" version="14.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1240" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="utU5AJ7HLMnN920g1hO9-28" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="utU5AJ7HLMnN920g1hO9-0" target="utU5AJ7HLMnN920g1hO9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="utU5AJ7HLMnN920g1hO9-0" value="&lt;b&gt;Start&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="12" y="30" width="135" height="40" as="geometry" />
+          <mxGeometry x="346" y="40" width="135" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-1" value="Insert Number of travel Units" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="20" width="120" height="60" as="geometry" />
+        <mxCell id="utU5AJ7HLMnN920g1hO9-29" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="utU5AJ7HLMnN920g1hO9-20" target="utU5AJ7HLMnN920g1hO9-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-2" value="Set Wind_force" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="523" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="utU5AJ7HLMnN920g1hO9-20" value="Set travel_distance" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-3" value="Total_min = ((Num_travel_Units/1000) * 1) / 0.02" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="339" y="262" width="150" height="60" as="geometry" />
+        <mxCell id="utU5AJ7HLMnN920g1hO9-30" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="utU5AJ7HLMnN920g1hO9-21" target="utU5AJ7HLMnN920g1hO9-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-4" value="set wind_dir" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="14" y="262" width="120" height="60" as="geometry" />
+        <mxCell id="utU5AJ7HLMnN920g1hO9-21" value="Set time_per_unit" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-5" value="Insert Wind direction" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="utU5AJ7HLMnN920g1hO9-31" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="utU5AJ7HLMnN920g1hO9-22" target="utU5AJ7HLMnN920g1hO9-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-6" value="set Totsl_travel = Num_travel_Units * 2" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="262" width="120" height="60" as="geometry" />
+        <mxCell id="utU5AJ7HLMnN920g1hO9-22" value="Average = travel_distance / time_per_unit" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="353.5" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-7" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="262" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-8" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="262" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-9" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="15" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-10" value="Insert Wind Force" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="354" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-11" value="set num_passenger" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-12" value="Insert number of passengers" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="15" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-13" value="set Trav_dir" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-14" value="Insert Travel Direction" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="523" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="utU5AJ7HLMnN920g1hO9-16" value="Set Num_travel_Units" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="350" y="20" width="120" height="60" as="geometry" />
+        <mxCell id="utU5AJ7HLMnN920g1hO9-27" value="&lt;b&gt;End&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="346.5" y="545" width="135" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

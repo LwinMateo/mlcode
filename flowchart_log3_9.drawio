@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T16:06:19.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.4.8" etag="mPkbZ-qKJoE4AHqkdORd" type="github"><diagram id="yspqPV0RvNQa-cP_8E2K">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-21T13:46:32.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="XQauW75H_-WXvveWCPwk" version="14.4.9" type="github">
+  <diagram id="yspqPV0RvNQa-cP_8E2K" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9SOX3s7886XIPtz9v9w--1" value="Start&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--2" value="Insert Travel Unit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--3" value="Read trav_unit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--4" value="Insert Travel Direction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--5" value="read Trav_Dir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--6" value="Insert the number of people" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--7" value="read num_pple" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--8" value="Insert the Wind Force" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--9" value="read wind_force" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--10" value="Insert the Wind Direction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--11" value="read Wind_dir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--12" value="Set Unit_to_travel = trav_unit / 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-21T13:46:32.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="XQauW75H_-WXvveWCPwk" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-21T13:58:28.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mhuweuOdW3E7XIcgyy70" version="14.4.9" type="github">
   <diagram id="yspqPV0RvNQa-cP_8E2K" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,11 +40,23 @@
         <mxCell id="9SOX3s7886XIPtz9v9w--12" value="Set Unit_to_travel = trav_unit / 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9SOX3s7886XIPtz9v9w--13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9SOX3s7886XIPtz9v9w--13" value="Set BaseUnitTime = num_pple * 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9SOX3s7886XIPtz9v9w--14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9SOX3s7886XIPtz9v9w--14" value="Set ppleTime = num_pple" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--15" value="Set windTime = wind_force" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--16" value="Set dir_Time = (BaseUnitTime + ppleTime) * Unit_to_travel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SOX3s7886XIPtz9v9w--18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
